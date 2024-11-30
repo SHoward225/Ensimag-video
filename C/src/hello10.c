@@ -116,29 +116,61 @@ int main(){
 
 // ========================= exo 2 ===========================
 
-    pthread_t thread_id[N+1];
+    // pthread_t thread_id[N+1];
 
+    // Moniteur* moniteur = (Moniteur*)malloc(sizeof(Moniteur));
+    // if(moniteur == NULL){
+    //     perror("Erreur d'allocation de memoire pour le moniteur");
+    //     return EXIT_FAILURE;
+    // }
+
+    // moniteur_init(moniteur);
+
+    // for(int i=0; i<N; i++){
+    //     pthread_create(&thread_id[i], NULL, hello_thread, (void*)moniteur);
+    // }
+
+    // pthread_create(&thread_id[N], NULL, done_thread, (void*)moniteur);
+
+    // for(int i=0; i<=N; i++){
+    //     pthread_join(thread_id[i], NULL);
+    // }
+
+    // moniteur_destroy(moniteur);
+    // free(moniteur);
+
+
+    // return 0;
+
+    pthread_t thread_id_done; // Thread pour "done"
+    pthread_t thread_id_hello[N]; // Threads pour "hello"
+
+    // Allouer dynamiquement le moniteur
     Moniteur* moniteur = (Moniteur*)malloc(sizeof(Moniteur));
-    if(moniteur == NULL){
-        perror("Erreur d'allocation de memoire pour le moniteur");
+    if (moniteur == NULL) {
+        perror("Erreur d'allocation mémoire pour le moniteur");
         return EXIT_FAILURE;
     }
 
+    // Initialisation du moniteur
     moniteur_init(moniteur);
 
-    for(int i=0; i<N; i++){
-        pthread_create(&thread_id[i], NULL, hello_thread, (void*)moniteur);
+    // Créer et détacher les threads Hello
+    for (int i = 0; i < N; i++) {
+        pthread_create(&thread_id_hello[i], NULL, hello_thread, (void*)moniteur);
+        pthread_detach(thread_id_hello[i]); // Détacher le thread
     }
 
-    pthread_create(&thread_id[N], NULL, done_thread, (void*)moniteur);
+    // Créer le thread Done
+    pthread_create(&thread_id_done, NULL, done_thread, (void*)moniteur);
 
-    for(int i=0; i<=N; i++){
-        pthread_join(thread_id[i], NULL);
-    }
+    // Attendre uniquement le thread Done
+    pthread_join(thread_id_done, NULL);
 
+    // Destruction et libération de la mémoire du moniteur
     moniteur_destroy(moniteur);
     free(moniteur);
 
-
     return 0;
+    
 }
