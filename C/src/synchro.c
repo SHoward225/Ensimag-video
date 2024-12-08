@@ -1,10 +1,20 @@
 #include "ensitheora.h"
 #include "synchro.h"
 
+
+// ================================================================
 /* les variables pour la synchro, ici */
 
+
+
 /* l'implantation des fonctions de synchro ici */
-void envoiTailleFenetre(th_ycbcr_buffer buffer) {}
+
+// ================================================================
+
+// Coté decodeur
+void envoiTailleFenetre(th_ycbcr_buffer buffer) {
+    
+}
 
 void attendreTailleFenetre() {}
 

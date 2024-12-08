@@ -2,9 +2,17 @@
 #include "ensivorbis.h"
 #include "stream_common.h"
 #include "synchro.h"
+#include "ensivideo.h"
 #include <assert.h>
 #include <time.h>
 
+// ===================================================================
+#include <pthread.h>
+
+pthread_mutex_t add_hashmap_mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_mutex_t find_hashmap_mutex = PTHREAD_MUTEX_INITIALIZER;
+
+// ===================================================================
 bool fini = false;
 
 struct timespec datedebut;
@@ -66,18 +74,33 @@ struct streamstate *getStreamState(ogg_sync_state *pstate, ogg_page *ppage,
     // ADD Your code HERE
     // proteger l'accès à la hashmap
 
+    //=================================================
+
+    pthread_mutex_lock(&add_hashmap_mutex);
+
     if (type == TYPE_THEORA)
       HASH_ADD_INT(theorastrstate, serial, s);
     else
       HASH_ADD_INT(vorbisstrstate, serial, s);
 
+    pthread_mutex_unlock(&add_hashmap_mutex);
+
+    //=================================================
   } else {
     // proteger l'accès à la hashmap
+
+    //=================================================
+    
+    pthread_mutex_lock(&find_hashmap_mutex);
 
     if (type == TYPE_THEORA)
       HASH_FIND_INT(theorastrstate, &serial, s);
     else
       HASH_FIND_INT(vorbisstrstate, &serial, s);
+
+    pthread_mutex_unlock(&find_hashmap_mutex);
+    
+    //=================================================
 
     // END of your code modification HERE
     assert(s != NULL);
@@ -138,6 +161,9 @@ int decodeAllHeaders(int respac, struct streamstate *s, enum streamtype type) {
 	// BEGIN your modification HERE
         // lancement du thread gérant l'affichage (draw2SDL)
         // inserer votre code ici !!
+        // =======================================================================
+        pthread_create(theora2sdl_th,NULL, draw2SDL, (void*) s->serial );
+        // =======================================================================
         // END of your modification
         assert(res == 0);
       }

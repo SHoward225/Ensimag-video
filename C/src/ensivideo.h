@@ -8,6 +8,14 @@
 #include <theora/theoradec.h>
 #include <vorbis/codec.h>
 
+// ====================================================================
+
+extern pthread_t theora_th;
+extern pthread_t vorbis_th;
+extern pthread_t theora2sdl_th;
+
+// ====================================================================
+
 enum streamtype { TYPE_UNKNOW, TYPE_THEORA, TYPE_VORBIS };
 
 struct theora_decode {

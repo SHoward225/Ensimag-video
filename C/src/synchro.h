@@ -6,9 +6,13 @@
 
 extern bool fini;
 
+// ================================================================
 /* Les extern des variables pour la synchro ici */
 
+
 /* Fonctions de synchro à implanter */
+
+// ================================================================
 
 void envoiTailleFenetre(th_ycbcr_buffer buffer);
 void attendreTailleFenetre();

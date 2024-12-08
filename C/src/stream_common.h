@@ -8,6 +8,13 @@ extern bool fini;
 extern pthread_t theora2sdlthread;
 extern struct timespec datedebut;
 
+// =================================================
+
+extern pthread_mutex_t add_hashmap_mutex ;
+extern pthread_mutex_t find_hashmap_mutex;
+
+// =================================================
+
 int msFromStart();
 void pageReader(FILE *vf, ogg_sync_state *pstate, ogg_page *ppage);
 struct streamstate *getStreamState(ogg_sync_state *pstate, ogg_page *ppage,
