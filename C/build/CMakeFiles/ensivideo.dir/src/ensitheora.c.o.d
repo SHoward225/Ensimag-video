@@ -1,9 +1,9 @@
 CMakeFiles/ensivideo.dir/src/ensitheora.c.o: \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensitheora.c \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensitheora.c \
  /usr/include/stdc-predef.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensitheora.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivideo.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/uthash.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensitheora.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivideo.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/uthash.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -198,6 +198,17 @@ CMakeFiles/ensivideo.dir/src/ensitheora.c.o: \
  /usr/include/SDL2/SDL_system.h /usr/include/SDL2/SDL_timer.h \
  /usr/include/SDL2/SDL_version.h /usr/include/SDL2/SDL_locale.h \
  /usr/include/SDL2/SDL_misc.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/stream_common.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/synchro.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/stream_common.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/synchro.h \
+ /usr/include/pthread.h /usr/include/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/sched.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+ /usr/include/x86_64-linux-gnu/bits/cpu-set.h /usr/include/time.h \
+ /usr/include/x86_64-linux-gnu/bits/time.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+ /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+ /usr/include/x86_64-linux-gnu/bits/pthread_stack_min.h \
  /usr/include/assert.h

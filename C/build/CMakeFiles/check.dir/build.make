@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C
+CMAKE_SOURCE_DIR = /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build
+CMAKE_BINARY_DIR = /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build
 
 # Utility rule file for check.
 
@@ -82,6 +82,6 @@ CMakeFiles/check.dir/clean:
 .PHONY : CMakeFiles/check.dir/clean
 
 CMakeFiles/check.dir/depend:
-	cd /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/check.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/check.dir/depend
 

@@ -1,7 +1,7 @@
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/ensivideo.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/check.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/package.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/package_source.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/test.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/edit_cache.dir
-/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/CMakeFiles/rebuild_cache.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/ensivideo.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/check.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/package.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/package_source.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/test.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/edit_cache.dir
+/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/CMakeFiles/rebuild_cache.dir

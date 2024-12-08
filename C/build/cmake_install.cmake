@@ -1,4 +1,4 @@
-# Install script for directory: /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C
+# Install script for directory: /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

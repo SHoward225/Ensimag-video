@@ -23,17 +23,22 @@ int main(int argc, char *argv[]) {
   }
   assert(argc == 2);
 
+  printf("Argument reçu : %s\n", argv[1]); // Vérifier l'argument
+  printf("Initialisation de la SDL...\n");
+
   // Initialisation de la SDL
   res = SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO | SDL_INIT_EVENTS);
   atexit(SDL_Quit);
   assert(res == 0);
 
+   printf("SDL initialisée avec succès.\n");
 
 // ================================================================
   // Your code HERE
   // start the two stream readers (theoraStreamReader and vorbisStreamReader)
   // each in a thread
 
+  printf("Lancement des threads pour Theora et Vorbis...\n");
   //--------- Creation de mes threads
   pthread_create(&theora_th, NULL, theoraStreamReader,(void*)argv[1]);
   pthread_create(&vorbis_th, NULL, vorbisStreamReader, (void*)argv[1]);
@@ -41,7 +46,7 @@ int main(int argc, char *argv[]) {
   // wait for vorbis thread
 
   //--------- Attente de la terminaison de vorbis
-  pthread_join(&vorbis_th, NULL);
+  pthread_join(vorbis_th, NULL);
 
 
   // 1 seconde of sound in advance, thus wait 1 seconde
@@ -59,6 +64,8 @@ int main(int argc, char *argv[]) {
   // --------- Apres les avoir tuer, attendre leur terminaison
   pthread_join(theora_th, NULL);
   pthread_join(theora2sdl_th, NULL);
+
+  printf("Fin du programme principal.\n");
 
   exit(EXIT_SUCCESS);
 }

@@ -1,8 +1,8 @@
 CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivorbis.c \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivorbis.c \
  /usr/include/stdc-predef.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivideo.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/uthash.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivideo.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/uthash.h \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -55,8 +55,8 @@ CMakeFiles/ensivideo.dir/src/ensivorbis.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
  /usr/include/theora/theora.h /usr/include/theora/theoradec.h \
  /usr/include/theora/codec.h /usr/include/vorbis/codec.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivorbis.h \
- /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/stream_common.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivorbis.h \
+ /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/stream_common.h \
  /usr/include/stdio.h /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \

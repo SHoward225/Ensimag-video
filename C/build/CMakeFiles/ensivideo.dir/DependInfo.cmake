@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensitheora.c" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o.d"
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivideo.c" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o.d"
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/ensivorbis.c" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.d"
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/oggstream.c" "CMakeFiles/ensivideo.dir/src/oggstream.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/oggstream.c.o.d"
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/stream_common.c" "CMakeFiles/ensivideo.dir/src/stream_common.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/stream_common.c.o.d"
-  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/src/synchro.c" "CMakeFiles/ensivideo.dir/src/synchro.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/synchro.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensitheora.c" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensitheora.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivideo.c" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivideo.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/ensivorbis.c" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/ensivorbis.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/oggstream.c" "CMakeFiles/ensivideo.dir/src/oggstream.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/oggstream.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/stream_common.c" "CMakeFiles/ensivideo.dir/src/stream_common.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/stream_common.c.o.d"
+  "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/src/synchro.c" "CMakeFiles/ensivideo.dir/src/synchro.c.o" "gcc" "CMakeFiles/ensivideo.dir/src/synchro.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

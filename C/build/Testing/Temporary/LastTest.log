@@ -1,18 +1,18 @@
-Start testing: Nov 30 22:19 CET
+Start testing: Dec 08 15:34 CET
 ----------------------------------------------------------
 1/1 Testing: CommonPthreadError
 1/1 Test: CommonPthreadError
-Command: "/usr/bin/perl" "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/tests/pthcocci.pl"
-Directory: /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/ensimag-video/C/build
-"CommonPthreadError" start time: Nov 30 22:19 CET
+Command: "/usr/bin/perl" "/home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/tests/pthcocci.pl"
+Directory: /home/kouadikj/ENSIMAG/2A-ISI/Semestre-1/SEPC/TP3-Thread/Ensimag-video/C/build
+"CommonPthreadError" start time: Dec 08 15:34 CET
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.16 sec
+Test time =   0.21 sec
 ----------------------------------------------------------
 Test Passed.
-"CommonPthreadError" end time: Nov 30 22:19 CET
+"CommonPthreadError" end time: Dec 08 15:34 CET
 "CommonPthreadError" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 30 22:19 CET
+End testing: Dec 08 15:34 CET
